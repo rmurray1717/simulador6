@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "corejs": 3.18,
+        "useBuiltIns": "usage",
+        "debug": true,
+        "targets": "> 0.20%, not dead, not ie 11"
+      }
+      ],
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import",
+    //"@babel/plugin-transform-runtime"
+  ]
+}
