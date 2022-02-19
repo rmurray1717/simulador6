@@ -14,7 +14,7 @@ module.exports = {
         https: true,
         static: resolve(__dirname, 'dist'),
         compress: true,
-        port: 8888,
+        port: 3000,
         host: 'localhost',
         watchContentBase: true,
         historyApiFallback: true,

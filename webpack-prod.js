@@ -14,24 +14,14 @@ module.exports = {
         https: true,
         static: resolve(__dirname, 'dist'),
         compress: true,
-        port: 8888,
+        port: 3000,
         host: 'localhost',
         //watchContentBase: true,
         historyApiFallback: true,
         open: false,
         hot: false,
     },
-    prodServer: {
-        https: true,
-        static: resolve(__dirname, 'dist'),
-        compress: true,
-        port: 8888,
-        host: 'localhost',
-        //watchContentBase: true,
-        historyApiFallback: true,
-        open: false,
-        hot: false,
-    },
+
     entry: [
     resolve(__dirname, 'src/main.js'),
     resolve(__dirname, 'Styles/main.scss')
